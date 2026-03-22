@@ -1,2 +1,8 @@
-# Milki-Speciality-Center
-git init git add . git commit -m "Initial site" git branch -M main git remote add origin https://github.com/&lt;your-username>/Milki-Speciality-Center.git git push -u origin main
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/milki-speciality-center.git
+git push -u origin main
+
+
+
