@@ -109,7 +109,30 @@ textarea{min-height:110px;resize:vertical}
 footer{margin-top:36px;background:var(--card);padding:22px;border-radius:12px;box-shadow:var(--shadow-soft)}
 .footer-grid{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-start}
 .footer-grid div{flex:1;min-width:220px}
+<<<<<<< HEAD
+.socials{display:flex;gap:15px;margin-top:12px;align-items:center}
+.social-icon{
+  width:32px;height:32px;display:flex;align-items:center;justify-content:center;
+  border-radius:50%;background:rgba(11,107,154,0.06);color:var(--primary);
+  transition:all .3s ease;text-decoration:none;
+}
+.social-icon:hover{
+  background:var(--primary);color:#fff;transform:translateY(-3px);box-shadow:0 5px 15px rgba(11,107,154,0.2);
+}
+.social-icon svg{width:18px;height:18px;fill:currentColor}
+
+/* Testimonials */
+.testimonial-card{
+  background:var(--bg);padding:20px;border-radius:12px;margin-bottom:15px;
+  border:1px solid rgba(11,107,154,0.04);transition:all .3s ease;
+}
+.testimonial-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-soft)}
+.testimonial-text{font-style:italic;color:#333;margin-bottom:10px;font-size:15px}
+.testimonial-author{font-weight:700;color:var(--primary);font-size:14px;display:flex;align-items:center;justify-content:space-between}
+.stars{color:var(--accent-2);font-size:12px;margin-bottom:5px}
+=======
 .socials{display:flex;gap:10px;margin-top:8px}
+>>>>>>> cc6696c77bf6ffe52b64520959d8ab541cff50b3
 
 /* Small utilities */
 .small{font-size:13px;color:var(--muted)}

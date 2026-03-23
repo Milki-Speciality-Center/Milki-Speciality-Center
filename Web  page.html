@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Milki Multi-Specialty Center - Quality Healthcare in Harar</title>
+  <meta name="description"
+    content="Milki Multi-Specialty Center provides affordable, specialist-led care in Harar. Book appointments for pediatrics, surgery, diagnostics, gynecology, psychiatry and more." />
+  <meta name="theme-color" content="#0b6b9a" />
+  <!-- Link to External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- LocalBusiness structured data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"MedicalOrganization",
+    "name":"Milki Multi-Specialty Center",
+    "description":"Affordable, specialist-led healthcare in Harar. Services include pediatrics, internal medicine, gynecology, diagnostics, surgery, and psychiatry.",
+    "telephone":["0913241273","0968686821","0968686822","0254660801"],
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Harar",
+      "streetAddress":"Near Biiroo Qonnaa"
+    },
+    "url":"",
+    "openingHours":"Mo,Tu,We,Th,Fr 08:00-18:00"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="logo.jpg" alt="Milki Logo" class="logo" style="width:56px; height:56px;" aria-hidden="true" />
+        <div>
+          <h1 id="site-name">Milki Multi-Specialty Center</h1>
+          <div class="tag small muted" id="site-tag">Healing Hands from Caring Hearts</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home" data-key="nav-home">Home</a></li>
+          <li><a href="#services" data-key="nav-services">Services</a></li>
+          <li><a href="#psychiatry" data-key="nav-psychiatry">Psychiatry</a></li>
+          <li><a href="#about" data-key="nav-about">About</a></li>
+          <li><a href="#contact" data-key="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="cta">
+        <button class="lang-toggle" id="langToggle">EN ➜ AM</button>
+        <a class="btn btn-secondary" href="#contact" id="callNowBtn">Call Now</a>
+        <a class="btn btn-primary" href="#book" id="bookBtn">Book Appointment</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="container">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-left">
+        <h2 id="hero-heading" data-key="hero-headline">Your Health, Our Priority in Harar</h2>
+        <p id="hero-sub" data-key="hero-sub">Affordable, high-quality care from trusted specialists. Book appointments
+          for pediatrics, surgery, diagnostics, gynecology, psychiatry and more.</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#book" id="primaryCta" data-key="cta-book">Book Appointment</a>
+          <a class="btn btn-secondary" href="tel:0913241273" id="secondaryCta" data-key="cta-call">Call 0913241273</a>
+        </div>
+
+        <div class="hero-card" style="margin-top:18px">
+          <div class="quick-contact">
+            <div class="phone">📞 <span id="phone1">0913241273</span></div>
+            <div class="phone">📞 <span id="phone2">0968686821</span></div>
+            <div class="phone">📞 <span id="phone3">0968686822</span></div>
+            <div class="small muted" id="addressLine">Landline 0254660801 | Harar, near Biiroo Qonnaa</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-right" aria-hidden="false">
+        <!-- Replace the src with your portrait image. Keep alt text accurate. -->
+        <div class="portrait">
+          <img id="heroPortrait" src="photo_2025-11-27_01-48-16.jpg"
+            alt="Dr. Milki portrait smiling at Milki Multi-Specialty Center" />
+        </div>
+
+        <div class="hero-card center">
+          <div class="small muted" data-key="open-hours-label">Open Hours</div>
+          <div style="font-weight:700;margin-top:6px" id="openHours">Mon - Fri 08:00 - 18:00</div>
+          <div class="small muted" style="margin-top:6px" data-key="walkins">Walk-ins accepted for urgent care</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" aria-labelledby="services-heading">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <h2 id="services-heading" style="margin:18px 0 6px" data-key="services-title">Our Services</h2>
+        <div class="small muted" data-key="services-sub">Comprehensive care across specialties</div>
+      </div>
+
+      <div class="services" role="list">
+        <article class="card" role="listitem" aria-labelledby="pediatrics-title">
+          <h3 id="pediatrics-title" data-key="svc-pediatrics-title">Pediatrics</h3>
+          <p data-key="svc-pediatrics-desc">Comprehensive care for infants, children, and adolescents including
+            immunizations and growth monitoring.</p>
+          <div class="card-cta"><a class="btn btn-primary" href="#book" data-key="svc-pediatrics-cta">Book Pediatric
+              Visit</a></div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="internal-title">
+          <h3 id="internal-title" data-key="svc-internal-title">Internal Medicine</h3>
+          <p data-key="svc-internal-desc">Continuity of care for adults with chronic and acute conditions including
+            diabetes and hypertension management.</p>
+          <div class="card-cta"><a class="btn btn-primary" href="#book" data-key="svc-internal-cta">Request
+              Consultation</a></div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="gyn-title">
+          <h3 id="gyn-title" data-key="svc-gyn-title">Gynecology</h3>
+          <p data-key="svc-gyn-desc">Respectful women?s health services including antenatal care, family planning, and
+            cervical screening.</p>
+          <div class="card-cta"><a class="btn btn-primary" href="#book" data-key="svc-gyn-cta">Schedule Women?s Health
+              Visit</a></div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="diag-title">
+          <h3 id="diag-title" data-key="svc-diag-title">Diagnostics</h3>
+          <p data-key="svc-diag-desc">On-site lab and imaging for fast, accurate results to support diagnosis and
+            treatment plans.</p>
+          <div class="card-cta"><a class="btn btn-primary" href="#book" data-key="svc-diag-cta">Book Diagnostic Test</a>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="surg-title">
+          <h3 id="surg-title" data-key="svc-surg-title">Surgery</h3>
+          <p data-key="svc-surg-desc">Safe, modern surgical care with pre-op assessment and post-op follow-up in a
+            sterile operating environment.</p>
+          <div class="card-cta"><a class="btn btn-primary" href="#book" data-key="svc-surg-cta">Consult Surgical
+              Team</a></div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="psych-title">
+          <h3 id="psych-title" data-key="svc-psych-title">Psychiatry and Mental Health</h3>
+          <p data-key="svc-psych-desc">Confidential, culturally sensitive mental health care including assessment,
+            therapy, medication management, and crisis support.</p>
+          <div class="card-cta"><a class="btn btn-primary" href="#psychiatry" data-key="svc-psych-cta">Book Mental
+              Health Consultation</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Surgery Spotlight -->
+    <section class="spotlight" id="surgery" aria-labelledby="surgery-heading">
+      <div>
+        <img src="photo_2023-08-11_23-58-33.jpg" alt="Operating room team preparing for surgery at Milki Center" />
+      </div>
+      <div class="text">
+        <h3 id="surgery-heading" data-key="surgery-title">Surgical Care You Can Trust</h3>
+        <p data-key="surgery-desc">Our surgical team follows strict safety protocols and uses modern operating
+          facilities to ensure the best outcomes. We provide clear pre-op instructions, thorough consent discussions,
+          and attentive post-op follow-up.</p>
+        <div style="margin-top:12px"><a class="btn btn-primary" href="#book" data-key="surgery-cta">Consult Surgical
+            Team</a></div>
+      </div>
+    </section>
+
+    <!-- Psychiatry Spotlight -->
+    <section class="spotlight" id="psychiatry" aria-labelledby="psychiatry-heading" style="margin-top:18px">
+      <div class="text">
+        <h3 id="psychiatry-heading" data-key="psy-title">Psychiatry and Mental Health Services</h3>
+        <p data-key="psy-desc">We provide confidential, respectful mental health care to help individuals and families
+          manage stress, mood disorders, anxiety, and other psychiatric conditions. Our team offers assessment,
+          medication management, psychotherapy, crisis intervention, and integrated care with other specialties.</p>
+
+        <ul style="margin-top:12px;color:var(--muted)">
+          <li data-key="psy-list-1">Comprehensive psychiatric assessment and risk evaluation</li>
+          <li data-key="psy-list-2">Medication management and follow-up</li>
+          <li data-key="psy-list-3">Psychotherapy including CBT, family therapy, and group programs</li>
+          <li data-key="psy-list-4">Crisis intervention and referral to community supports</li>
+        </ul>
+
+        <div style="margin-top:12px"><a class="btn btn-primary" href="#book" data-key="psy-cta">Book Mental Health
+            Consultation</a></div>
+      </div>
+
+      <div>
+        <img src="psychiatry_consultation.png" alt="Clinician speaking with patient during a mental health consultation"
+          style="border-radius:12px;width:100%;box-shadow:var(--shadow);" />
+      </div>
+    </section>
+
+    <!-- Meet the Specialist -->
+    <section class="meet" aria-labelledby="meet-heading">
+      <div>
+        <img id="meetPortrait" src="photo_2023-08-09_18-06-43.jpg" alt="Dr. Milki portrait" />
+      </div>
+      <div>
+        <h3 id="meet-heading" data-key="meet-title">Dr. Milki Founder</h3>
+        <p class="muted" data-key="meet-desc">Board-certified specialist with extensive clinical experience. Leading the
+          clinical team with a focus on patient safety, evidence-based care, and community outreach.</p>
+        <div style="margin-top:8px"><a class="btn btn-primary" href="#book" data-key="meet-cta">Book with Dr. Milki</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials and Updates -->
+    <div class="row">
+      <div class="testimonials">
+        <h3 data-key="test-title">What Patients Say</h3>
+        <blockquote data-key="test-1">"The staff were kind and professional. My child received excellent care." - A. M.
+        </blockquote>
+        <blockquote data-key="test-2">"Quick diagnostics and clear explanations. Highly recommended." - T. H.
+        </blockquote>
+      </div>
+
+      <div class="updates">
+        <h3 data-key="updates-title">Latest Updates</h3>
+        <div style="margin-top:8px">
+          <strong data-key="update-1-title">Health Awareness Campaign</strong>
+          <div class="small muted" data-key="update-1-desc">Free diabetes screening day next month. Call to register.
+          </div>
+        </div>
+        <div style="margin-top:12px">
+          <strong data-key="update-2-title">New Specialist</strong>
+          <div class="small muted" data-key="update-2-desc">We welcome a new pediatrician to our team.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Booking Form -->
+    <section id="book" style="margin-top:28px">
+      <div class="hero-card">
+        <h3 data-key="book-title">Book an Appointment</h3>
+        <p class="small muted" data-key="book-sub">Fill the form or use WhatsApp quick-book for faster response.</p>
+
+        <form id="bookingForm" onsubmit="return handleBooking(event)" novalidate style="margin-top:12px">
+          <div class="form-grid">
+            <label>
+              <div class="small" data-key="label-name">Full name</div>
+              <input type="text" id="name" name="name" required />
+            </label>
+            <label>
+              <div class="small" data-key="label-phone">Phone number</div>
+              <input type="tel" id="phone" name="phone" required />
+            </label>
+          </div>
+
+          <div class="form-grid" style="margin-top:8px">
+            <label>
+              <div class="small" data-key="label-service">Service</div>
+              <select id="service" name="service" required>
+                <option value="" data-key="opt-select">Select a service</option>
+                <option>Pediatrics</option>
+                <option>Internal Medicine</option>
+                <option>Gynecology</option>
+                <option>Diagnostics</option>
+                <option>Surgery</option>
+                <option>Psychiatry and Mental Health</option>
+              </select>
+            </label>
+            <label>
+              <div class="small" data-key="label-date">Preferred date</div>
+              <input type="date" id="date" name="date" />
+            </label>
+          </div>
+
+          <label style="margin-top:8px">
+            <div class="small" data-key="label-notes">Notes (optional)</div>
+            <textarea id="notes" name="notes" placeholder="Brief reason for visit or special requests"></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary" data-key="btn-request">Request Appointment</button>
+
+            <!-- WhatsApp quick-book link uses clinic phone number. Replace number if needed. -->
+            <a id="whatsappLink" class="btn btn-secondary"
+              href="https://wa.me/251913241273?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment."
+              target="_blank" rel="noopener" data-key="btn-whatsapp">WhatsApp Quick Book</a>
+
+            <a class="btn btn-ghost" href="tel:0913241273" data-key="btn-call">Call 0913241273</a>
+          </div>
+
+          <div id="bookingMessage" class="small muted" style="margin-top:10px;display:none"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="margin-top:28px">
+      <div class="hero-card">
+        <h3 data-key="contact-title">Contact Us</h3>
+        <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px">
+          <div style="flex:1;min-width:220px">
+            <strong data-key="contact-phone">Phone</strong>
+            <div class="small muted">0913241273 | 0968686821 | 0968686822</div>
+            <div style="margin-top:8px"><strong data-key="contact-landline">Landline</strong>
+              <div class="small muted">0254660801</div>
+            </div>
+          </div>
+
+          <div style="flex:1;min-width:220px">
+            <strong data-key="contact-address">Address</strong>
+            <div class="small muted">Harar, near Biiroo Qonnaa</div>
+            <div style="margin-top:8px"><strong data-key="contact-hours">Hours</strong>
+              <div class="small muted">Mon-Fri 08:00-18:00</div>
+            </div>
+          </div>
+
+          <div style="flex:1;min-width:220px">
+            <strong data-key="contact-social">Social</strong>
+            <div class="socials">
+              <a class="small muted" href="#" aria-label="Facebook">Facebook</a>
+              <a class="small muted" href="#" aria-label="YouTube">YouTube</a>
+              <a class="small muted" href="#" aria-label="TikTok">TikTok</a>
+              <a class="small muted" href="#" aria-label="Telegram">Telegram</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px" class="small muted" data-key="contact-download">
+          Downloadable banner and contact flyer available in the footer.
+        </div>
+
+        <div style="margin-top:12px;border-radius:8px;overflow:hidden">
+          <iframe src="https://maps.google.com/maps?q=9.3134,42.1278&z=16&output=embed" width="100%" height="300"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Milki Multi-Specialty Center location in Harar">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <strong id="footer-name">Milki Multi-Specialty Center</strong>
+          <div class="small muted" id="footer-tag">Healing Hands from Caring Hearts</div>
+          <div style="margin-top:8px" class="small muted" id="footer-phones">Phone 0913241273 | 0968686821 | 0968686822
+          </div>
+        </div>
+
+        <div>
+          <strong data-key="footer-links">Quick Links</strong>
+          <div class="small muted" style="margin-top:8px">
+            Home | Services | Psychiatry | About | Contact
+          </div>
+        </div>
+
+        <div>
+          <strong data-key="footer-download">Download</strong>
+          <div class="small muted" style="margin-top:8px">Multilingual banner and contact flyer (PDF)</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Language strings and minimal JS -->
+  <script>
+    // Language content dictionary (English, Amharic, Oromo)
+    const LANG = {
+      en: {
+        "nav-home": "Home", "nav-services": "Services", "nav-psychiatry": "Psychiatry", "nav-about": "About", "nav-contact": "Contact",
+        "hero-headline": "Your Health, Our Priority in Harar", "hero-sub": "Affordable, high-quality care from trusted specialists. Book appointments for pediatrics, surgery, diagnostics, gynecology, psychiatry and more.",
+        "cta-book": "Book Appointment", "cta-call": "Call 0913241273",
+        "open-hours-label": "Open Hours", "walkins": "Walk-ins accepted for urgent care",
+        "services-title": "Our Services", "services-sub": "Comprehensive care across specialties",
+        "svc-pediatrics-title": "Pediatrics", "svc-pediatrics-desc": "Comprehensive care for infants, children, and adolescents including immunizations and growth monitoring.", "svc-pediatrics-cta": "Book Pediatric Visit",
+        "svc-internal-title": "Internal Medicine", "svc-internal-desc": "Continuity of care for adults with chronic and acute conditions including diabetes and hypertension management.", "svc-internal-cta": "Request Consultation",
+        "svc-gyn-title": "Gynecology", "svc-gyn-desc": "Respectful women?s health services including antenatal care, family planning, and cervical screening.", "svc-gyn-cta": "Schedule Women?s Health Visit",
+        "svc-diag-title": "Diagnostics", "svc-diag-desc": "On-site lab and imaging for fast, accurate results to support diagnosis and treatment plans.", "svc-diag-cta": "Book Diagnostic Test",
+        "svc-surg-title": "Surgery", "svc-surg-desc": "Safe, modern surgical care with pre-op assessment and post-op follow-up in a sterile operating environment.", "svc-surg-cta": "Consult Surgical Team",
+        "svc-psych-title": "Psychiatry and Mental Health", "svc-psych-desc": "Confidential, culturally sensitive mental health care including assessment, therapy, medication management, and crisis support.", "svc-psych-cta": "Book Mental Health Consultation",
+        "surgery-title": "Surgical Care You Can Trust", "surgery-desc": "Our surgical team follows strict safety protocols and uses modern operating facilities to ensure the best outcomes. We provide clear pre-op instructions, thorough consent discussions, and attentive post-op follow-up.", "surgery-cta": "Consult Surgical Team",
+        "psy-title": "Psychiatry and Mental Health Services", "psy-desc": "We provide confidential, respectful mental health care to help individuals and families manage stress, mood disorders, anxiety, and other psychiatric conditions. Our team offers assessment, medication management, psychotherapy, crisis intervention, and integrated care with other specialties.", "psy-list-1": "Comprehensive psychiatric assessment and risk evaluation", "psy-list-2": "Medication management and follow-up", "psy-list-3": "Psychotherapy including CBT, family therapy, and group programs", "psy-list-4": "Crisis intervention and referral to community supports", "psy-cta": "Book Mental Health Consultation",
+        "meet-title": "Dr. Milki Founder", "meet-desc": "Board-certified specialist with extensive clinical experience. Leading the clinical team with a focus on patient safety, evidence-based care, and community outreach.", "meet-cta": "Book with Dr. Milki",
+        "test-title": "What Patients Say", "test-1": "\"The staff were kind and professional. My child received excellent care.\" ? A. M.", "test-2": "\"Quick diagnostics and clear explanations. Highly recommended.\" ? T. H.",
+        "updates-title": "Latest Updates", "update-1-title": "Health Awareness Campaign", "update-1-desc": "Free diabetes screening day next month. Call to register.", "update-2-title": "New Specialist", "update-2-desc": "We welcome a new pediatrician to our team.",
+        "book-title": "Book an Appointment", "book-sub": "Fill the form or use WhatsApp quick-book for faster response.", "label-name": "Full name", "label-phone": "Phone number", "label-service": "Service", "label-date": "Preferred date", "label-notes": "Notes (optional)", "btn-request": "Request Appointment", "btn-whatsapp": "WhatsApp Quick Book", "btn-call": "Call 0913241273",
+        "contact-title": "Contact Us", "contact-phone": "Phone", "contact-landline": "Landline", "contact-address": "Address", "contact-hours": "Hours", "contact-social": "Social", "contact-download": "Downloadable banner and contact flyer available in the footer.",
+        "footer-links": "Quick Links", "footer-download": "Download"
+      },
+      am: {
+        "nav-home": "መነሻ", "nav-services": "አገልግሎቶች", "nav-psychiatry": "የአእምሮ ጤና", "nav-about": "ስለ እኛ", "nav-contact": "አድራሻ",
+        "hero-headline": "የእርስዎ ጤና፣ የእኛ ቅድሚያ ጉዳይ በሐረር", "hero-sub": "ከታመኑ ስፔሻሊስቶች ተደራሽ እና ከፍተኛ ጥራት ያለው እንክብካቤ። ለህጻናት፣ ለቀዶ ጥገና፣ ለምርመራዎች፣ ለማህፀን እና ለአእምሮ ህክምና ቀጠሮ ይያዙ።",
+        "cta-book": "ቀጠሮ ይያዙ", "cta-call": "ይደውሉ 0913241273",
+        "open-hours-label": "የስራ ሰዓታት", "walkins": "አስቸኳይ ታካሚዎችን ያለቀጠሮ እንቀበላለን",
+        "services-title": "አገልግሎቶቻችን", "services-sub": "ሁለንተናዊ ህክምና በተለያዩ የህክምና ዘርፎች",
+        "svc-pediatrics-title": "የህፃናት ህክምና", "svc-pediatrics-desc": "ክትባት እና የእድገት ክትትልን ጨምሮ ለህፃናት እና ለታዳጊዎች ሙሉ እንክብካቤ።", "svc-pediatrics-cta": "የሕፃናት ቀጠሮ",
+        "svc-internal-title": "የውስጥ ደዌ", "svc-internal-desc": "የስኳር እና የደም ግፊት ቁጥጥርን ጨምሮ ለከባድ እና ድንገተኛ በሽታዎች ለትላልቅ ሰዎች።", "svc-internal-cta": "ምክክር ይጠይቁ",
+        "svc-gyn-title": "የማህፀን ህክምና", "svc-gyn-desc": "የእርግዝና ክትትል፣ የቤተሰብ እቅድ እና የማህፀን ምርመራዎችን ጨምሮ የተከበረ የሴቶች ጤና።", "svc-gyn-cta": "የሴቶች ቀጠሮ",
+        "svc-diag-title": "የምርመራ ላቦራቶሪ", "svc-diag-desc": "በትክክለኛ ውጤት ላይ የተመሰረተ ምርመራ በፍጥነት የሚያገኙበት ላቦራቶሪ እና ኢሜጂንግ።", "svc-diag-cta": "ምርመራ ይጠይቁ",
+        "svc-surg-title": "ቀዶ ጥገና", "svc-surg-desc": "ከቀዶ ጥገና በፊት ትንታኔ እና ከቀዶ ጥገና በኋላ ክትትል ያለው ዘመናዊ እና ደህንነቱ የተጠበቀ ቀዶ ጥገና።", "svc-surg-cta": "የቀዶ ጥገና ቀጠሮ",
+        "svc-psych-title": "የአእምሮ ጤና አገልግሎት", "svc-psych-desc": "በማህበራዊ ደህንነትዎ ላይ ያተኮረ እና የተጠበቀ የአእምሮ ጤና አገልግሎቶች፤ ህክምና፣ የመድሃኒት ክትትል እና ድንገተኛ ድጋፍ።", "svc-psych-cta": "የአእምሮ ጤና ቀጠሮ",
+        "surgery-title": "የሚያምኑበት የቀዶ ጥገና እንክብካቤ", "surgery-desc": "የቀዶ ጥገና ቡድናችን ምርጥ ውጤቶችን ለማረጋገጥ ጥብቅ የደህንነት ፕሮቶኮሎችን ይከተላል እና ዘመናዊ መገልገያዎችን ይጠቀማል።", "surgery-cta": "የቀዶ ጥገና ቡድን ይመክሩ",
+        "psy-title": "የአእምሮ ጤና አገልግሎቶች", "psy-desc": "የጭንቀት፣ የስሜት መታወክ፣ የፍርሃት እና ሌሎች የስነ አእምሮ ሁኔታዎችን ለመቋቋም ሚስጥራዊ እና አክብሮት ያለው እንክብካቤ እንሰጣለን።", "psy-list-1": "ሁለንተናዊ የስነ-አእምሮ ምርመራ", "psy-list-2": "የመድሃኒት አቅርቦት እና ክትትል", "psy-list-3": "የስነ ልቦና ህክምና", "psy-list-4": "የድንገተኛ አደጋ ጣልቃ ገብነት", "psy-cta": "ቀጠሮ ይያዙ",
+        "meet-title": "ዶ/ር ሚልኪ - መስራች", "meet-desc": "ሰፊ የህክምና ልምድ ያካበቱ እና ተቀባይነት ያላቸው ስፔሻሊስት።", "meet-cta": "ከዶ/ር ሚልኪ ጋር ቀጠሮ ይያዙ",
+        "test-title": "ታካሚዎቻችን የሚሉት", "test-1": "\"ሰራተኞቹ ለስላሳ እና ባለሙያ ነበሩ። ልጄ በጣም ጥሩ እንክብካቤ አገኘ።\" - A. M.", "test-2": "\"ፈጣን ምርመራ እና ግልጽ ማብራሪያ። በተለይ ይመረጣል።\" - T. H.",
+        "updates-title": "አዳዲስ መረጃዎች", "update-1-title": "የጤና ግንዛቤ ዘመቻ", "update-1-desc": "በመጪው ወር ነፃ የስኳር ምርመራ ቀን። ለመመዝገብ ይደውሉ።", "update-2-title": "አዲስ ዶክተር", "update-2-desc": "አዲስ የህጻናት ሐኪም ወደ ቡድናችን እንቀበላለን።",
+        "book-title": "ቀጠሮ ይያዙ", "book-sub": "ቅጹን ይሙሉ ወይም ለፈጣን ምላሽ የውስጠ ደብዳቤ (WhatsApp) ይመዝገቡ።", "label-name": "ሙሉ ስም", "label-phone": "ስልክ ቁጥር", "label-service": "አገልግሎት", "label-date": "የምርጫ ቀን", "label-notes": "ማስታወሻ (አማራጭ)", "btn-request": "ቀጠሮ ይጠይቁ", "btn-whatsapp": "የ WhatsApp ቀጠሮ", "btn-call": "ይደውሉ 0913241273",
+        "contact-title": "አድራሻችን", "contact-phone": "ስልክ", "contact-landline": "ቋሚ ስልክ", "contact-address": "አድራሻ", "contact-hours": "ሰዓታት", "contact-social": "ማህበራዊ ገጽ", "contact-download": "ፖስተር እና የተገናኙ ፋይሎችን ያውርዱ",
+        "footer-links": "ፈጣን ማገናኛ", "footer-download": "ያውርዱ"
+      },
+      om: {
+        "nav-home": "Mana", "nav-services": "Tajaajiloota", "nav-psychiatry": "Saayikiyatrii", "nav-about": "Waa'ee", "nav-contact": "Quunnamtii",
+        "hero-headline": "Fayyaa Keessan, Itti Fayyadamni Keenya Harar", "hero-sub": "Tajaajila fayyaa qulqullina ol'aanaa, gatii salphaan. Teessoo qabachuu fi tajaajiloota pediyaatiriksii, opeeraashinii, qorannoo, gineekooloojii fi saayikiyatrii argadhu.",
+        "cta-book": "Teessoo Qabachuu", "cta-call": "Amma Bilbilaa",
+        "open-hours-label": "Sa'aatii Banamaa", "walkins": "Namoonni ariifachiisaa dhufan ni simatamu",
+        "services-title": "Tajaajiloota Keenya", "services-sub": "Tajaajila guutuu dameewwan adda addaa keessatti",
+        "svc-pediatrics-title": "Pediatrics", "svc-pediatrics-desc": "Tajaajila guutuu daa'immanii fi dargaggootaaf, talaallii fi hordoffii guddina dabalata.", "svc-pediatrics-cta": "Teessoo Daa'imaa Qabachuu",
+        "svc-internal-title": "Internal Medicine", "svc-internal-desc": "Tajaajila itti fufiinsa qabu dhukkuboota dheeraa fi ariifachiisaa irratti.", "svc-internal-cta": "Gaaffii Manni Yaalaa",
+        "svc-gyn-title": "Gynecology", "svc-gyn-desc": "Tajaajila kabajaa qabu dubartootaa; kunuunsa ulfaa fi karoora maatii dabalata.", "svc-gyn-cta": "Teessoo Fayyaa Dubartootaa",
+        "svc-diag-title": "Diagnostics", "svc-diag-desc": "Labii fi suuraa iddoo irratti argamuuf bu'aa ariifachiisaa fi sirrii.", "svc-diag-cta": "Qorannoo Qabachuu",
+        "svc-surg-title": "Surgery", "svc-surg-desc": "Tajaajila opeeraashinii ammayyaa fi nageenya qabu.", "svc-surg-cta": "Garee Opeeraashinii Gaaffadhu",
+        "svc-psych-title": "Saayikiyatrii fi Fayyaa Sammuu", "svc-psych-desc": "Tajaajila fayyaa sammuu iccitii fi aadaa hubatu kennina; qorannoo, yaala, to'annoo qorichaa fi deeggarsa ariifachiisaa dabalata.", "svc-psych-cta": "Teessoo Fayyaa Sammuu Qabachuu",
+        "surgery-title": "Tajaajila Opeeraashinii Amanamaa", "surgery-desc": "Gareen keenya seerota nageenyaa cimaa hordofa; meeshaalee opeeraashinii ammayyaa fayyadama.", "surgery-cta": "Garee Opeeraashinii Gaaffadhu",
+        "psy-title": "Tajaajiloota Saayikiyatrii fi Fayyaa Sammuu", "psy-desc": "Tajaajila iccitii fi kabajaa qabu kennina; qorannoo, to'annoo qorichaa, yaala, deeggarsa ariifachiisaa fi walitti dhufeenya tajaajiloota biroo waliin.", "psy-list-1": "Qorannoo guutuu fi madaallii balaa", "psy-list-2": "To'annoo qorichaa fi hordoffii", "psy-list-3": "Yaala sammuu (CBT), yaala maatii fi garee", "psy-list-4": "Deeggarsa ariifachiisaa fi gara deeggarsa hawaasaa geessu", "psy-cta": "Teessoo Fayyaa Sammuu Qabachuu",
+        "meet-title": "Dr. Milki Founder", "meet-desc": "Ogummaa fi muuxannoo cimaa qabu; garee fayyaa hooggana.", "meet-cta": "Dr. Milki waliin Teessoo Qabachuu",
+        "test-title": "Maaltu Namoota Gammachiise", "test-1": "\"Hojjettoonni garaa laafina qaban; daa'ima koo tajaajila gaarii argate.\" - A. M.", "test-2": "\"Qorannoo ariifachiisaa fi ibsa ifaa. Baay'ee gorsa gaarii.\" - T. H.",
+        "updates-title": "Odeeffannoo Haaraa", "update-1-title": "Kampanii Beeksisa Fayyaa", "update-1-desc": "Guyyaa qorannoo sukkaaraa bilisaa ji'a dhufu. Galmaa'aa.", "update-2-title": "Ogummaa Haaraa", "update-2-desc": "Pediyaatiristii haaraa garee keenya keessatti simanna.",
+        "book-title": "Teessoo Qabachuu", "book-sub": "Furmaata guutuu guutuu ykn WhatsApp fayyadamuun teessoo ariifachiisaa argadhu.", "label-name": "Maqaa guutuu", "label-phone": "Lakkoofsa bilbilaa", "label-service": "Tajaajila", "label-date": "Guyyaa filatame", "label-notes": "Yaadannoo (filatama)", "btn-request": "Gaaffii Teessoo", "btn-whatsapp": "WhatsApp Teessoo", "btn-call": "Amma Bilbilaa",
+        "contact-title": "Nu Quunnamaa", "contact-phone": "Bilbila", "contact-landline": "Landline", "contact-address": "Teessoo", "contact-hours": "Sa'aatii", "contact-social": "Hawaasa", "contact-download": "Bannera fi faayila quunnamtii gara footer irraa buufadhu",
+        "footer-links": "Liinkii Ariifachiisaa", "footer-download": "Buufadhu"
+      },
+      so: {
+        "nav-home": "Guriga", "nav-services": "Adeegyada", "nav-psychiatry": "Dhimirka", "nav-about": "Nagu saabsan", "nav-contact": "Xiriirka",
+        "hero-headline": "Caafimaadkaaga, Mudnaantayada Harar", "hero-sub": "Daryeel la awoodi karo, tayo sare leh oo ay bixiyaan khubaro la aamini karo. Ballamaha u qabso carruurta, qalliinka, baaritaanka, cudurrada haweenka, dhimirka iyo in ka badan.",
+        "cta-book": "Ballan Qabso", "cta-call": "Wac 0913241273",
+        "open-hours-label": "Saacadaha Furan", "walkins": "Dadka degdega ah waa la ogolyahay",
+        "services-title": "Adeegyadeena", "services-sub": "Daryeel dhameystiran ee takhasusyada",
+        "svc-pediatrics-title": "Cudurada Caruurta", "svc-pediatrics-desc": "Daryeel buuxa ee caruurta iyo dhalinyarada, oo ay ku jiraan tallaalka iyo kormeerka koritaanka.", "svc-pediatrics-cta": "Ballo Cudurada Caruurta",
+        "svc-internal-title": "Daaweynta Gudaha", "svc-internal-desc": "Daryeelka cudurrada raagga iyo kuwa degdegga ah, oo ay ku jiraan xakamaynta sonkorowga iyo dhiigkarka.", "svc-internal-cta": "Ballan Weydii",
+        "svc-gyn-title": "Cudurada Haweenka", "svc-gyn-desc": "Daryeel haweeneed oo khushuuci ah, dabagal uur, qorshayn qoys, iyo baaritaan.", "svc-gyn-cta": "Ballan Haweenka Qabso",
+        "svc-diag-title": "Baaritaanada", "svc-diag-desc": "Sheeybaar casri ah iyo raajo si dhaqso loo helo natiijo sax ah.", "svc-diag-cta": "Baritaanada Qabso",
+        "svc-surg-title": "Qalliin", "svc-surg-desc": "Qaliin aamin ah oo casri ah, qolka qaliinka oo nadiif ah.", "svc-surg-cta": "Khariirka Qalliinka Wac",
+        "svc-psych-title": "Dhimirka iyo Caafimaadka Maskaxda", "svc-psych-desc": "Xanaanayn shakhsi ah ee niyadjabka, walbahaarka iyo caafimaadka maskaxda.", "svc-psych-cta": "Ballo Caafimaadka Maskaxda",
+        "surgery-title": "Qaliin La Aamini Karo", "surgery-desc": "Kooxdayada qaliinka waxay raacaan habraacyada badbaadada si loo xaqiijiyo natiijada ugu fiican. Waxaan ku siinaynaa daryeel iyo daryeelid degdeg ah qaliinka kadib.", "surgery-cta": "Kooxda Qaliinka weydii",
+        "psy-title": "Adeegyada Caafimaadka Maskaxda iyo Dhimirka", "psy-desc": "Waxaan bixinaa daaweyn asturan oo ixtiraam leh, si loo maareeyo maanka, xanuunada kacsanaada iyo dhibaatooyinka nafsiyeed kale.", "psy-list-1": "Qiimaynta dhimirka ee dhamaystiran", "psy-list-2": "Maareynta daawada iyo dabagalka", "psy-list-3": "Daweynta dhimirka (CBT)", "psy-list-4": "Daryeelka xaaladaha degdegga ah", "psy-cta": "Ballan maskaxeed qabso",
+        "meet-title": "Dr. Milki Maamulaha", "meet-desc": "Dhaktar la aqoonsan yahay oo aqoon durugsan leh.", "meet-cta": "Ballan La Qabso Dr. Milki",
+        "test-title": "Maxay Bukaanadu Dhaheen", "test-1": "\"Shaqaaluhu way fiicanaayeen. Canuggaygu waxa uu helay daryeel heer sare ah.\" - A. M.", "test-2": "\"Baadhitaan degdeg ah iyo caddeyn cajiib ah.\" - T. H.",
+        "updates-title": "Macluumaad Cusub", "update-1-title": "Ololaha Wacyigelinta Caafimaadka", "update-1-desc": "Baadhid bilaash ah ee sonkorowga bisha dambe. Wac si aad isu diiwaangeliso.", "update-2-title": "Dhakhtar Cusub", "update-2-desc": "Waxaan soo dhawaynaynaa dhakhtar cusub ee caruurta.",
+        "book-title": "Ballan Qabso", "book-sub": "Buuxi foomka ama isticmaal WhatsApp ballan degdeg ah.", "label-name": "Magaca oo buuxa", "label-phone": "Telefoonka", "label-service": "Adeeg", "label-date": "Taariikhda la doorbido", "label-notes": "Xusuusin (ikhtiyaari)", "btn-request": "Codso Ballan", "btn-whatsapp": "WhatsApp Ballan", "btn-call": "Wac 0913241273",
+        "contact-title": "Nala Soo Xiriir", "contact-phone": "Telefoonka", "contact-landline": "Khadka Dhulka", "contact-address": "Cinwaanka", "contact-hours": "Saacadaha", "contact-social": "Baraha Bulshada", "contact-download": "Boodhadh iyo faylal hoosta kala deg",
+        "footer-links": "Kuwa Dag Dag ah", "footer-download": "Kala Deg"
+      }
+    };
+
+    // Current language state
+    let currentLang = 'en';
+
+    // Function to apply language strings to elements with data-key
+    function applyLanguage(lang) {
+      const dict = LANG[lang] || LANG.en;
+      document.querySelectorAll('[data-key]').forEach(el => {
+        const key = el.getAttribute('data-key');
+        if (key && dict[key] !== undefined) {
+          if (el.tagName.toLowerCase() === 'input' || el.tagName.toLowerCase() === 'textarea' || el.tagName.toLowerCase() === 'select') {
+            el.placeholder = dict[key];
+          } else {
+            el.textContent = dict[key];
+          }
+        }
+      });
+      // Update nav link placeholders (options)
+      const serviceSelect = document.getElementById('service');
+      if (serviceSelect) {
+        // keep options in English for clarity; you can replace with translations if desired
+      }
+      // Update language toggle label
+      const toggle = document.getElementById('langToggle');
+      if (lang === 'en') toggle.textContent = 'EN ➜ AM';
+      else if (lang === 'am') toggle.textContent = 'AM ➜ OM';
+      else if (lang === 'om') toggle.textContent = 'OM ➜ SO';
+      else toggle.textContent = 'SO ➜ EN';
+      currentLang = lang;
+    }
+
+    // Toggle language on button click (cycles en -> am -> om -> so -> en)
+    document.addEventListener('DOMContentLoaded', () => {
+      applyLanguage('en');
+      document.getElementById('langToggle').addEventListener('click', () => {
+        let next = 'en';
+        if (currentLang === 'en') next = 'am';
+        else if (currentLang === 'am') next = 'om';
+        else if (currentLang === 'om') next = 'so';
+        applyLanguage(next);
+      });
+    });
+
+    // Booking form handling
+    async function handleBooking(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const service = document.getElementById('service').value;
+      const date = document.getElementById('date').value;
+      const notes = document.getElementById('notes').value.trim();
+
+      if (!name || !phone || !service) {
+        showMessage(getLangString('Please fill your name, phone and select a service.'), true);
+        return false;
+      }
+
+      try {
+        const payload = { name, phone, service, date, notes };
+
+        // Connect to the central Milki Application database via API
+        // Allows direct database syncing and appointment scheduling 
+        const response = await fetch('http://localhost:3000/api/appointments', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+          showMessage(getLangString('Your booking request was sent to our Clinic Database! We will call you.'), false);
+          document.getElementById('bookingForm').reset();
+          return false;
+        } else {
+          throw new Error("Server Sync Error");
+        }
+      } catch (err) {
+        // Fallback to manual WhatsApp approach if remote isn't responsive
+        const clinicNumber = '251913241273';
+        const text = encodeURIComponent(
+          `${getLangString('Hello, I would like to book an appointment at Milki Multi-Specialty Center.')}\nName: ${name}\nService: ${service}\nPreferred date: ${date || 'Any'}\nPhone: ${phone}\nNotes: ${notes || 'None'}`
+        );
+
+        const waUrl = `https://wa.me/${clinicNumber}?text=${text}`;
+        window.open(waUrl, '_blank');
+
+        showMessage(getLangString('We opened WhatsApp to send your booking request. If WhatsApp is not available, please call 0913241273.'), false);
+      }
+      return false;
+    }
+
+    function showMessage(msg, isError) {
+      const el = document.getElementById('bookingMessage');
+      el.style.display = 'block';
+      el.style.color = isError ? '#b91c1c' : '#0b6b9a';
+      el.textContent = msg;
+      setTimeout(() => { el.style.display = 'none'; }, 12000);
+    }
+
+    function getLangString(defaultText) {
+      // Simple helper: return a short message in current language for form feedback
+      if (currentLang === 'am') {
+        if (defaultText.includes('Please fill')) return '???? ????? ????? ?? ?????? ????';
+        if (defaultText.includes('Hello')) return '???? ??? ???? ???????';
+        if (defaultText.includes('Your booking request was sent')) return '???? ????? ???? ?????';
+        if (defaultText.includes('We opened WhatsApp')) return 'WhatsApp ???? ????? ???? ???? 0913241273 ?????';
+      } else if (currentLang === 'om') {
+        if (defaultText.includes('Please fill')) return 'Maqaa, bilbila fi tajaajila filadhu guutuu qabda.';
+        if (defaultText.includes('Hello')) return 'Akkam, teessoo qabachuu barbaada.';
+        if (defaultText.includes('Your booking request was sent')) return 'Gaaffiin kee gara databeesii keenya ergameera!';
+        if (defaultText.includes('We opened WhatsApp')) return 'WhatsApp bannee jirra; yoo hin jirre 0913241273 bilbilaa.';
+      } else if (currentLang === 'so') {
+        if (defaultText.includes('Please fill')) return 'Fadlan buuxi magaca, taleefanka iyo adeegga.';
+        if (defaultText.includes('Hello')) return 'Wa salaaman tahay, ballan ayaan rabaa.';
+        if (defaultText.includes('Your booking request was sent')) return 'Codsigaaga ballanta waxaa loo diray diiwaanka isbitaalka!';
+        if (defaultText.includes('We opened WhatsApp')) return 'WhatsApp ayaa la furay si loo diro codsiga. Haddii aysan shaqayn wac 0913241273.';
+      }
+      return defaultText;
+    }
+
+    // Update WhatsApp quick-book link with prefilled message
+    (function updateWhatsAppLink() {
+      const clinicNumber = '251913241273';
+      const text = encodeURIComponent('Hello, I would like to book an appointment at Milki Multi-Specialty Center. Name: [Your name] Service: [Service] Preferred date/time: [DD/MM/YYYY HH:MM] Phone: [Your phone number]');
+      const link = document.getElementById('whatsappLink');
+      if (link) link.href = `https://wa.me/${clinicNumber}?text=${text}`;
+    })();
+  </script>
+</body>
+
+</html>
